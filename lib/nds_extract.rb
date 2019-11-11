@@ -51,11 +51,8 @@ def total_gross(source)
   # return the total
   
   total_gross = 0
-  counter = 0
   
   directors_totals.each_value {total_gross += value}
-    counter += 1
-  end
   
   total_gross
 end
