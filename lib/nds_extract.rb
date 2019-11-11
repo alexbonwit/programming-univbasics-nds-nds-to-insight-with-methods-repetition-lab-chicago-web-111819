@@ -54,10 +54,7 @@ def total_gross(source)
   counter = 0
   
   while counter < list_of_directors(source).length do
-    if list_of_directors(source)[counter] == directors_totals(source)
-      total_gross += list_of_directorsdirectors_totals(source)
-    
-    # total_gross += list_of_directors(directors_totals(source))[counter]
+    directors_totals.each 
     counter += 1
   end
   
