@@ -52,7 +52,7 @@ def total_gross(source)
   
   total_gross = 0
   
-  directors_totals(source).each_value {|value| total_gross += value}
+  directors_totals(list_of_directors).each_value {|value| total_gross += value}
   
   total_gross
 end
