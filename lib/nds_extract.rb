@@ -53,8 +53,7 @@ def total_gross(source)
   total_gross = 0
   counter = 0
   
-  while counter < list_of_directors(source).length do
-    directors_totals.each 
+  directors_totals.each_value {total_gross += value}
     counter += 1
   end
   
